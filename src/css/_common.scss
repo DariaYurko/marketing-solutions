@@ -1,0 +1,48 @@
+/* ---------- Common styles start -------*/
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #81818b;
+  background-color: #0d0d11;
+}
+
+[class*='__container'] {
+  max-width: 767px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media only screen and (min-width: 768px) {
+    max-width: 1309px;
+  }
+
+  @media only screen and (min-width: 1310px) {
+    max-width: 1310px; // 1280(container's width) + 15(padding-left) + 15(padding-right)
+  }
+}
+
+.button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.429;
+  letter-spacing: 0.14em;
+  text-align: center;
+  color: #fff;
+
+  display: inline-block;
+  min-width: 130px;
+  padding: 13px 10px;
+  border-radius: 50px;
+  background-color: #3d96f4;
+
+  @media only screen and (min-width: 992px) {
+    min-width: 160px;
+    padding: 16px;
+  }
+}
+
+.logo {
+}
+/* ---------- Common styles end -------*/
